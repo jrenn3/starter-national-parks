@@ -35,3 +35,8 @@ const park = main.querySelector(".park-display");
 
 // Remove that park
 main.removeChild(park);
+
+const firstBtn = document.querySelector("button");
+firstBtn.addEventListener("click", (event) => {
+  console.log("You clicked the button", event);
+});
